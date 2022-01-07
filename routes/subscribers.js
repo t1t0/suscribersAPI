@@ -1,5 +1,4 @@
 const express = require('express')
-const { restart } = require('nodemon')
 const router = express.Router()
 
 const Subscriber = require('../models/subscriber')
